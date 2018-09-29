@@ -46,6 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       })
 
+      // Remove double clicked die
+      die.addEventListener('dblclick', function (die) {
+
+        this.remove();
+
+      });
+
     };
 
     // Inital roll for new die
