@@ -1,0 +1,18 @@
+.shape-name {
+  text-decoration: underline;
+}
+
+.insert-shape-container, .playground {
+  display: flex;
+}
+
+.shape-form, .attributes {
+  margin-left: 15px;
+}
+
+.canvas {
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+  margin: 15px;
+}

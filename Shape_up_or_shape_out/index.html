@@ -8,7 +8,57 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+
+  <div class="insert-shape-container">
+    <div class="shape-form">
+      <h3 class="shape-name">Rectangle</h3>
+      <form>
+        Height:<br>
+        <input type="text" id="rectHeight"><br>
+        Width:<br>
+        <input type="text" id="rectWidth"><br>
+        <button id="insertRect">Insert</button>
+      </form>
+    </div>
+    <div class="shape-form">
+      <h3 class="shape-name">Square</h3>
+      <form>
+        Side Lenth:<br>
+        <input type="text" id="sqSideLength"><br>
+        <button id="insertSquare">Insert</button>
+      </form>
+    </div>
+    <div class="shape-form">
+      <h3 class="shape-name">Circle</h3>
+      <form>
+        Radius:<br>
+        <input type="text" id="circleRadius"><br>
+        <button type="submit" id="insertCircle">Insert</button>
+      </form>
+    </div>
+    <div class="shape-form">
+      <h3 class="shape-name">Isoceles Right Triangle</h3>
+      <form>
+        Height:<br>
+        <input type="text" id="triHeight"><br>
+        <button type="submit" id="insertTriange">Insert</button>
+      </form>
+    </div>
+  </div>
+  <div class="playground">
+    <div class="canvas">
+
+    </div>
+    <div class="attributes">
+      <h3 id="nameAttr">Shape Name: </h3>
+      <h3 id="widthAttr">Width: </h3>
+      <h3 id="heightAttr">Height: </h3>
+      <h3 id="radiusAttr">Radius: </h3>
+      <h3 id="areaAttr">Area: </h3>
+      <h3 id="parimeterAttr">Parimeter: </h3>
+    </div>
+  </div>
+
   <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="scripts.js"></script>
 </body>
