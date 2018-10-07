@@ -15,4 +15,9 @@
   width: 600px;
   border: 1px solid black;
   margin: 15px;
+  background-color: #f3f3f3;
+}
+
+.canvas > div {
+  position: absolute;
 }
