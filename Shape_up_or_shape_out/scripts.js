@@ -197,7 +197,7 @@ $(document).ready(function () {
         'height': `0`,
         'width': `0`,
         'margin-top': `${randomVal((MAX - height), 0)}px`,
-        'margin-left': `${randomVal((MAX - height), 0)}px`
+        'margin-left': `${randomVal((MAX - (height * 2)), 0)}px`
 
       });
 
